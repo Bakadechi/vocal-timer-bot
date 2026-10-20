@@ -1,0 +1,6 @@
+node_modules/
+.env
+cache/
+# tes propres sons : non publiés (droits d'auteur), seul le dossier est conservé
+audio/*
+!audio/.gitkeep

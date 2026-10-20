@@ -1,0 +1,33 @@
+{
+  "name": "vocal-timer-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bot Discord vocal : annonce une phrase (synthèse vocale ou mp3) toutes les X minutes pendant X minutes",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/register-commands.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.8",
+    "ffmpeg-static": "^5.3.0",
+    "libsodium-wrappers": "^0.8.4",
+    "msedge-tts": "^2.1.0",
+    "opusscript": "^0.0.8"
+  },
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "voice",
+    "tts",
+    "timer",
+    "reminder"
+  ]
+}
